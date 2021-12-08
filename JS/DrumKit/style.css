@@ -1,0 +1,43 @@
+:root {
+  --white-color: white;
+  --black-color: black;
+  --yellow-color: #ffc600;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+body {
+  background-image: url("img/main-backgound.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+  font-family: "Roboto", sans-serif;
+}
+span.sound {
+  text-transform: uppercase;
+}
+kbd {
+  display: block;
+  font-size: 4rem;
+  color: var(--white-color);
+}
+.key {
+  border: 0.4rem solid var(--black-color);
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 6px;
+  transition: all 0.07s;
+  margin: 10px;
+  color: VAR(--yellow-color);
+}
+.keys {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.playing {
+  transform: scale(1.1);
+  border-color: var(--yellow-color);
+  box-shadow: 0 0 10px var(--yellow-color);
+}
