@@ -1,0 +1,8 @@
+{
+  "editor.formatOnPaste": true,
+  "files.autoGuessEncoding": true,
+  "files.autoSave": "onFocusChange",
+  "diffEditor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
